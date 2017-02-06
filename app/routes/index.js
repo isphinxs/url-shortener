@@ -16,7 +16,7 @@ module.exports = function (app) {
     
     app.route("/new/:url(*)")
         .get(function (req, res) {
-            var rootUrl = "https://evening-taiga-49138.herokuapp.com/"; // https://fcc-api-projects-isphinxs.c9users.io/
+            var rootUrl = "https://evening-taiga-49138.herokuapp.com/";  
             var url = req.params.url; 
             if (checkUrl(url)) {
                 checkDuplicate(url, function (result) {  
