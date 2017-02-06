@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>URL Shortener (FCC)</title>
+        <link href="/public/css/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Arvo|Barrio" rel="stylesheet">
+    </head>
+    <body>
+        <h1>URL Shortener</h1>
+        <p>This application returns a shortened URL that will redirect the user to the original link.  If the original URL doesn't follow the the valid <strong>http://www.example.com</strong> format, the application returns an error.</p>
+        <h3>Instructions:</h3>
+        <p>To shorten a URL, enter the link into this web page's address bar using the <strong>/new/</strong> path.  The link must be preceded by <strong>http://</strong> or <strong>https://</strong>.</p>
+        <p>To go to a shortened URL, simply enter it into the address bar.  The browser will direct you to the original link.</p>
+        <p>For example, try the following inputs:</p>
+            <ul>
+                <li><code>https://evening-taiga-49138.herokuapp.com/new/http://www.google.com</code></li>
+                <li><code>https://evening-taiga-49138.herokuapp.com/1</code></li>
+            </ul>
+        <p>Example output:</p>
+            <ul>
+                <li><code>{ "original_url": "https://www.google.com", "short_url":"https://evening-taiga-49138.herokuapp.com/1" }</code></li>
+            </ul>
+        <h3>Enjoy!</h3>
+    </body>
+</html>

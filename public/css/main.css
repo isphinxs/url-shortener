@@ -1,0 +1,14 @@
+body {
+    margin: 5%;
+}
+h1, h3 {
+    font-family: 'Barrio', cursive;
+}
+p {
+    font-family: 'Arvo', serif;
+    margin-left: 2%;
+    max-width: 80%;
+}
+ul {
+    list-style: none;
+}
