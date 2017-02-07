@@ -8,7 +8,7 @@ Launch with node using <code>node server.js</code>.
 
 ## Sample Input
 
-    https://evening-taiga-49138.herokuapp.com/new/http://www.google.com
+    https://evening-taiga-49138.herokuapp.com/new/https://www.google.com
     https://evening-taiga-49138.herokuapp.com/1
 
 ## Sample Output
